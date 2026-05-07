@@ -153,9 +153,4 @@ classifier_hidden  : [128, 192]     # 192 for Deep Attention only
 
 ---
 
-## Limitations
 
-- Only 2 subjects from `ds005873`; results may not generalize broadly.
-- The fMRI file (`ds007313`, `sub-A006`) belongs to a different dataset and subject than the wearable data — cross-modal interpretation is post-hoc and illustrative only.
-- No subject-matched fMRI validation is performed.
-- Window label is positive if *any* overlap with a seizure annotation exists; fine-grained onset timing is not modeled.
